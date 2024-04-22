@@ -22,7 +22,6 @@ void setup() {
   initializeSerial();
   initializeWire();
   MPU.initialize();
-
 }
 
 void initiliazePin() {
@@ -49,10 +48,6 @@ void buzz() {
     noTone(BUZZER_PIN);
     delay(DELAY);
  }
-}
-
-void average() {
-
 }
 
 void loop() {
