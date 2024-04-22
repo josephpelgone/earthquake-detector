@@ -3,14 +3,14 @@
 #define RXp2 16
 #define TXp2 17
 
-const char *SSID = "HUAWEI-B56e";
-const char *PASSWORD = "xtNW3NNf";
+const char *SSID = "";
+const char *PASSWORD = "";
 
-const char *ACCOUNT_SID = "AC23aa90f258678a28a66c8e4be467aff7";
-const char *AUTH_TOKEN = "21701a3924d56b2b4175552c48b24bfa";
-const char *FROM_NUMBER = "+13253088895";
+const char *ACCOUNT_SID = "";
+const char *AUTH_TOKEN = "";
+const char *FROM_NUMBER = "";
 
-const char *TO_NUMBER = "+639477382408";
+const char *TO_NUMBER = "";
 const char *MESSAGE = "EARTHQUAKE DETECTED";
 
 Twilio *twilio;
