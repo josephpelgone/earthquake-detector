@@ -78,7 +78,6 @@ void loop() {
     Serial.print("CURRENT TIME ");
     Serial.println(millis() - CURRENT_TIME);
     delay(1000);
-    
   }
 
    int AVERAGE_X_VALUE = TO_SUM_X_VALUE / ITERATION;
