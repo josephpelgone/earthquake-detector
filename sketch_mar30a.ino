@@ -72,7 +72,6 @@ void loop() {
       ITERATION++;
     } 
 
-    /* PWEDE TO IDELTE PANG CHECK LANG TO NG MGA ACCUMULATED / PINAG ADD NA VALUE SA LOOB NG 15 SECONDS */
     Serial.print("GYRO X ");
     Serial.println(TO_SUM_X_VALUE);
     Serial.print("GYRO Y ");
@@ -90,7 +89,6 @@ void loop() {
    int AVERAGE_Y_VALUE = TO_SUM_Y_VALUE / ITERATION;
    int AVERAGE_Z_VALUE = TO_SUM_Z_VALUE / ITERATION;
 
-    /* PWEDE TO IDELTE PANG CHECK LANG TO NG MGA AVERAGE */
     Serial.print("AVERAGE GYRO X ");
     Serial.println(AVERAGE_X_VALUE);
     Serial.print("AVERAGE GYRO Y ");
@@ -99,7 +97,6 @@ void loop() {
     Serial.println(AVERAGE_Z_VALUE);
     delay(1000);
 
-  /* I adjust nyo ung value nitong tatlo GYRO_X_VALUE, GYRO_Y_VALUE, GYRO_Z_VALUE */
    if(
      AVERAGE_X_VALUE > GYRO_X_VALUE || 
      AVERAGE_Y_VALUE > GYRO_Y_VALUE ||
